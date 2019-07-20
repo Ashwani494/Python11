@@ -1,0 +1,5 @@
+#f=open("myfile.txt","w")
+f=open("myfile1.txt","a")
+name= input("enter your name")
+f.write(name)
+f.close()
