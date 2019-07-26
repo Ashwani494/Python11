@@ -1,0 +1,12 @@
+from tkinter import *
+root = Tk()
+root.title("My First Gui")
+lbl=Label(root,text="enter your name",fg="red",bg="yellow",font=("Times New Roman",14,"bold"))
+lbl.place(x=20,y=50)
+txt_name=Entry(root,justify="right",fg="red",bg="yellow",font=("Times New Roman",14,"bold"))
+txt_name.place(x=300,y=50)
+btn=Button(root,text="Click Me",fg="red",bg="yellow")
+btn.place(x=200,y=150)
+root.geometry("600x500+400+200")
+#root.resizable(0,0)
+mainloop()
