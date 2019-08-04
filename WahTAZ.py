@@ -225,7 +225,9 @@ def additemwindow():
 
     ###############################################
     tazTV.grid(row=7, column=2, columnspan=3)
-
+    style=ttk.Style(taz)
+    style.theme_use('clam')
+    style.configure("Treeview",fieldbackground="green")
     scrollBar = Scrollbar(taz, orient="vertical", command=tazTV.yview)
     scrollBar.grid(row=7, column=4, sticky="NSE")
 

@@ -2,9 +2,9 @@ from tkinter import *
 from PIL import Image, ImageTk
 root=Tk()
 
-luck = Button(root, text="LUCK", bg="black", fg="green", width=20,
+'''luck = Button(root, text="LUCK", bg="black", fg="green", width=20,
                  command=lambda: ImageShow("test.gif"))
-luck.place(x=35, y=200)
+luck.place(x=35, y=200)'''
 
 
 def ImageShow(path):
